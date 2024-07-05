@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Fast React Pizza Co. Menu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Fast React Pizza Co. Menu is a front-end web application that showcases a pizza menu for a fictional pizza company. The menu is developed using React and CSS to provide a clean, interactive, and user-friendly interface. Each pizza item displays detailed information including the name, ingredients, price, and availability status.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Responsive Design:** Ensures the menu looks great on all devices, from desktops to mobile phones.
+- **Dynamic Content:** Displays pizza items with images, descriptions, and prices.
+- **Availability Status:** Indicates which items are sold out.
+- **Styling:** Utilizes CSS for a modern and visually appealing layout.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React:** For building the interactive user interface.
+- **CSS:** For styling the components and ensuring a responsive design.
